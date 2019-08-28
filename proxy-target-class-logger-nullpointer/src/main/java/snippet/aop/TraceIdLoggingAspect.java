@@ -13,7 +13,7 @@ public class TraceIdLoggingAspect {
 
     private static final Logger LOG = LoggerFactory.getLogger(TraceIdLoggingAspect.class);
 
-    @Pointcut(value = "within(snippet..*) && args(traceId, ..)",
+    @Pointcut(value = "args(traceId, ..)",
             argNames = "traceId")
     public void firstParamTraceId(String traceId){
         // just a pointcut
