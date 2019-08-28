@@ -8,6 +8,7 @@
   <groupId>code-snippets</groupId>
   <artifactId>proxy-target-class-logger-nullpointer</artifactId>
   <packaging>war</packaging>
+  <version>0.0.1.SNAPSHOT</version>
 
 
   <properties>
