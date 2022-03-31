@@ -20,7 +20,7 @@
     <maven.plugin.resources.version>3.0.2</maven.plugin.resources.version>
     <maven.plugin.source.version>3.0.1</maven.plugin.source.version>
 
-    <spring.version>5.1.8.RELEASE</spring.version>
+    <spring.version>5.3.18</spring.version>
 
     <slf4j-api.version>1.7.26</slf4j-api.version>
     <logback.version>1.2.3</logback.version>
